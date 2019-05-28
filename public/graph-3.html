@@ -1,0 +1,22 @@
+<head>
+<!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+      
+<body>
+<a href="/graph-1.html">Graph-1</a>
+<a href="/graph-2.html">Graph-2</a>
+<a href="/graph-3.html">Graph-3</a>
+<div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+<script>
+    var data = [
+  {
+    x: ['2013-10-04 22:23:00', '2013-11-04 22:23:00', '2013-12-04 22:23:00','2014-01-04 22:23:00','2014-02-04 22:23:00','2014-03-04 22:23:00'],
+    y: [1, 3, 6, 10, 5, 1],
+    type: 'scatter'
+  }
+];
+
+Plotly.newPlot('myDiv', data, {}, {showSendToCloud: true});
+</script>
+</body>

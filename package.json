@@ -1,0 +1,17 @@
+{
+  "name": "vapt",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Yash Pratap Singh",
+  "license": "MIT",
+  "scripts": {
+    "start" : "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  },
+  "engines" : {
+    "node" : "10.15.3"
+  }
+}
